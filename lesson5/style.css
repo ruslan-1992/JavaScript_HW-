@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.display-none{
+    display: none;
+}
+#menu__open {
+    width: 120px;
+    height: 30px;
+    background-color: plum;
+    color:seashell;
+    text-transform: uppercase;
+    border: solid 1px green;
+    border-radius: 20px;
+    box-shadow: 0 4px 1px rgba(0,0,0, 0.5)
+}
+#menu__open:hover {
+    background-color: darkorchid;
+}
+#menu__open:active {
+    position: relative;
+    top: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.5)
+}
+.menu {
+    width: 170px;
+    height: 160px;
+    background-color: tomato;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.menu__item {
+}
+.menu__item-item {
+    background-color: beige;
+    text-align: center;
+    margin-top: 10px;
+}
+.menu__item-item:nth-child(1) {
+    border-radius: 5px 3px 0 0;
+}
+.menu__item-item:nth-child(5) {
+    border-radius:0 0 3px 5px;
+}
+
+.container-button {
+    margin-top: 20px;
+}
+.container {
+    margin-top: 10px;
+}
+.button-add {
+    box-shadow: 0 3px 2px grey ;
+}
+.button-add:active {
+    position: relative;
+    top: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.5)
+}
+.button-remove {
+    box-shadow: 0 3px 2px grey ;
+}
+.button-remove:active {
+    position: relative;
+    top: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.5)
+}

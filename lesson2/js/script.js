@@ -171,3 +171,18 @@ let resultNew = newMass.filter(item => {
   return item > 10;
 });
 console.log(resultNew);
+
+// калькулятор
+let aValues = [];
+while(true) {
+  aValues.push(prompt("Введите число"));
+  if(aValues[aValues.length-1]===15) {
+    let iSum = 0;
+    for(iVal of aValues);
+    {
+      iSum+=parseInt(iVal);
+    }
+    console.log(iSum);
+    break;
+  }
+}
