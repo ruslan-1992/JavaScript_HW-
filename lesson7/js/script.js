@@ -46,7 +46,7 @@ const calc = (e) => {
     currentAcc.push(account);
     showCurrentAccount(account);
     e.preventDefault();
-// document.querySelector('.enter-number').value = '';
-    e.target.reset();
+document.querySelector('.enter-number').value = '';
+    // e.target.reset();
 }
 document.getElementById('buttonCalc').addEventListener('click', calc);
